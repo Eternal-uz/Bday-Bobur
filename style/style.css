@@ -10,9 +10,19 @@
     justify-content: center;
     align-items: center;
 }
-
-span {
+.main{
+    background: linear-gradient(45deg, black, purple);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+header span {
     font-size: 100px;
     color: white;
     text-transform: uppercase;
+}
+main span{
+    font-size: 100px;
+    color: white;
 }
